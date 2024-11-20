@@ -2,29 +2,49 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Monty's Site">
-
-  <title>Ba4Pr4Se16Tb4</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Cerrato Land Surveying</title>
 </head>
+
 <body>
-    <div class= "hamburger-menu">
-        <button id="menucontentbutton" class="button"><img src="images/menu.svg" alt="menu icon" id="menu"></button>
-          <ul id = "links">
-            <li><a href = "index.html">Home</a></li>
-            <li><a href = "Ba4Pr4Se16Tb4.html">Ba4Pr4Se16Tb4</a></li>
-           </ul>
-       </div>
-</body>>
-<h1 id="hometitle">Cerrato Land Surveying</h1>
+
+    <div class="navcontainer" id="logonarrow">
+        <div class="hidden navmenunarrow" id="menunarrow">
+            <button class="button" id="hamburgerbutton">&#9776;</button>
+            <h2 class="toptitle">Cerrato Land Surveying</h2>
+        </div>
+        <div class="imagediv">
+            <!-- Source: client provided (Scott Cerrato)-->
+            <img src="images/logo.png" alt="Cerrato Land Surveying Logo">
+        </div>
+        <div class="navigation" id="menu">
+            <div class="navpadding" id="homenav">
+                <h2><a href="index.html">Home</a></h2>
+            </div>
+            <div class="navpadding" id="servicesnav">
+                <h2><a href="services.html">Services</a></h2>
+            </div>
+            <div class="navpadding" id="previousworknav">
+                <h2><a href="previouswork.html">Previous Work</a></h2>
+            </div>
+            <div class="navpadding" id="aboutusnav">
+                <h2><a href="aboutus.html">About Us</a></h2>
+            </div>
+            <div class="navpadding" id="photogallerynav">
+                <h2><a href="photogallery.html">Photo Gallery</a></h2>
+            </div>
+        </div>
+    </div>
+    <h1 id="hometitle">Cerrato Land Surveying</h1>
     <div class="titlebar" id="maintitle">
 
 
     </div>
     <div class="hometotal">
         <div class="homeMain">
+            <!-- Source: client provided (Scott Cerrato)-->
             <div class="hometotal">
                 <p class="homecontent">We provide timely, accurate land surveying services at competitive pricing to residential, commercial, and municipal clients in Massachusetts. A land survey will help you protect your investment and can reveal the exact property size, dimensions and location of the existing home and potential encroachments. A land survey also provides clients with a certified document for future planning permits and development of your property.</p>
                 <figure class="homefigure" id="homefigure1">
@@ -48,7 +68,8 @@
             </div>
 
         </div>
-        <div class="sidebar"
+        <div class="sidebar">
+            <!-- Source: client provided (Scott Cerrato)-->
             <aside>
                 <h2>Contact</h2>
                 <p>Phone Number: 781-775-3724</p>
@@ -57,3 +78,11 @@
             </aside>
         </div>
     </div>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/homebargallery.js"></script>
+</body>
+
+
+</html>
